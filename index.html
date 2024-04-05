@@ -1,33 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./script.js" />
-    <title>NLW Unite</title>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
+    <script>
+      dayjs.extend(window.dayjs_plugin_relativeTime)
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
+    <script>
+      dayjs.locale("pt-br")
+    </script>
+
+    <script type="text/javascript" src="./script.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css" />
   </head>
+
   <body>
-    <table>
-      <thead>
+    <table width="100%">
+      <thead style="text-align: left">
         <tr>
-          <th>Participantes</th>
+          <th>Participante</th>
           <th>Data da inscrição</th>
           <th>Data do check-in</th>
         </tr>
       </thead>
-    </table>
 
-    <tbody>
-      <tr>
-        <td>
-          <strong> Diego Fernandes </strong>
-        </td>
-        <br />
-        <small> diego@mail.com </small>
-        <td>Há 3 dias</td>
-        <td>Há 3 minutos</td>
-      </tr>
-    </tbody>
+      <tbody></tbody>
+    </table>
   </body>
 </html>

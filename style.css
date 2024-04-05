@@ -1,4 +1,7 @@
-thead {
+table {
   width: 100%;
+}
+
+thead {
   text-align: left;
 }
