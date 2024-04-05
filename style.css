@@ -9,7 +9,7 @@
 /* Line --border: 1px solid #ffffff1a; */
 
 :root {
-  --border: 1px solid #ffffff1a;
+  --border: 1px solid #ffffffcb;
 }
 
 body,
@@ -17,6 +17,7 @@ table,
 inpult,
 button {
   font: 400 16px/140% "roboto", sans-serif;
+  text-align: center;
 }
 
 body {
@@ -50,18 +51,58 @@ fieldset > div {
 }
 
 /* Dados de cadastro */
-.inpult-wrapper {
+.input-wrapper {
   flex: 1;
 
   display: flex;
   align-items: center;
+  gap: 12px;
+
+  border: 1px solid #747474;
+  border-radius: 10px;
+
+  padding: 8px;
+
+  font: 400 14px/150% "Roboto", sans-serif;
+  color: #c4c4cc;
 }
 
 input {
   all: unset;
 }
 
+fieldset legend,
+section h2 {
+  font: 700 16/140% "Roboto", sans-serif;
+  color: #e1e1e6;
+  padding-bottom: 16px;
+}
+
+/* Botão */
+fieldset button {
+  width: fit-content;
+  border: 0;
+  background: #f48f56;
+  border-radius: 10px;
+  padding: 7px 20px;
+
+  font: 700 12px/24px "Roboto", sans-serif;
+}
+
+fieldset button:hover {
+  background-color: rgb(252, 123, 3);
+}
+
 /* Tabela */
+
+.lista-participantes {
+  padding: 20px 0;
+}
+
+.lista-participantes > div {
+  border: var(--border);
+  border-radius: 8px;
+}
 
 tab {
   border-collapse: collapse;
