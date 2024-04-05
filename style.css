@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 /* VAR */
@@ -20,9 +21,15 @@ button {
   text-align: center;
 }
 
+h2 {
+  margin-top: 20px;
+  color: rgb(252, 123, 3);
+}
+
 body {
   background-color: #121213;
   color: #ffffff;
+  display: flex;
 }
 
 .container {
@@ -51,6 +58,11 @@ fieldset > div {
 }
 
 /* Dados de cadastro */
+legend.inscricao {
+  font-size: 22px;
+  color: rgb(252, 123, 3);
+}
+
 .input-wrapper {
   flex: 1;
 
@@ -96,6 +108,7 @@ fieldset button:hover {
 /* Tabela */
 
 .lista-participantes {
+  display: flex;
   padding: 20px 0;
 }
 
