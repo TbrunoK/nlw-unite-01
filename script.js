@@ -1,3 +1,4 @@
+// participantes //
 let participantes = [
   {
     nome: "Bruno Chagas",
@@ -61,11 +62,14 @@ let participantes = [
   },
 ]
 
+// criar um novo participante //
+
 const criarNovoParticipante = (participante) => {
   const dataInscricao = dayjs(Date.now()).to(participante.dataInscricao)
 
   const dataCheckIn = dayjs(Date.now()).to(participante.dataCheckIn)
 
+  //Retornar o HTML com as novas informações //
   return `
   <tr>
     <td>
@@ -83,6 +87,7 @@ const criarNovoParticipante = (participante) => {
   `
 }
 
+//Atualizar a lista com novos participantes //
 const atualizarLista = (participantes) => {
   let output = ""
   for (let participante of participantes) {
