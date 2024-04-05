@@ -1,15 +1,64 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VAR */
+/* Line --border: 1px solid #ffffff1a; */
+
+:root {
+  --border: 1px solid #ffffff1a;
+}
+
 body,
 table,
 inpult,
 button {
   font: 400 16px/140% "roboto", sans-serif;
+}
+
+body {
   background-color: #121213;
   color: #ffffff;
 }
 
+.container {
+  max-width: 690px;
+  margin: 0 auto;
+  padding: 20px 32px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+form {
+  border: var(--border);
+  border-inline: none;
+  padding: 20px 0;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset > div {
+  display: flex;
+  gap: 12px;
+}
+
 /* Dados de cadastro */
-.informacoes {
-  text-align: center;
+.inpult-wrapper {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+}
+
+input {
+  all: unset;
 }
 
 /* Tabela */
@@ -29,7 +78,7 @@ tbody td {
 }
 
 tbody td {
-  border-top: 1px solid #7e7a7a;
+  border-top: var(--border);
   font-size: 13px;
   line-height: 15px;
   color: #c4c4cc;
