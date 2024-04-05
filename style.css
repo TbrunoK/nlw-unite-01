@@ -1,3 +1,9 @@
+body {
+  font: 16px "roboto", sans-serif;
+  background-color: #121213;
+  color: #ffffff;
+}
+
 table {
   width: 100%;
 }
