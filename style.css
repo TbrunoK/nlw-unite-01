@@ -1,13 +1,61 @@
-body {
-  font: 16px "roboto", sans-serif;
+body,
+table,
+inpult,
+button {
+  font: 400 16px/140% "roboto", sans-serif;
   background-color: #121213;
   color: #ffffff;
 }
 
-table {
-  width: 100%;
+/* Dados de cadastro */
+.informacoes {
+  text-align: center;
 }
 
-thead {
-  text-align: left;
+/* Tabela */
+
+tab {
+  border-collapse: collapse;
+}
+
+table thead {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+thead th,
+tbody td {
+  padding: 12px 16px;
+}
+
+tbody td {
+  border-top: 1px solid #7e7a7a;
+  font-size: 13px;
+  line-height: 15px;
+  color: #c4c4cc;
+}
+
+/* Nome dos participantes */
+
+tbody td strong {
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+/* Email dos participantes */
+tbody td small {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* Botão */
+tbody td button {
+  all: unset;
+  color: #9ff9cc;
+}
+
+tbody td button:hover {
+  text-decoration: underline;
 }

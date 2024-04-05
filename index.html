@@ -27,17 +27,24 @@
   </head>
 
   <body>
-    <form onsubmit="adicionarParticipante(event)">
-      <fieldset>
-        <legend>Inscrição</legend>
-        <div>
-          <input type="text" placeholder="Nome Completo" name="nome" required />
+    <div class="informacoes">
+      <form onsubmit="adicionarParticipante(event)">
+        <fieldset>
+          <legend>Inscrição</legend>
+          <div>
+            <input
+              type="text"
+              placeholder="Nome Completo"
+              name="nome"
+              required
+            />
 
-          <input type="email" placeholder="Email" name="email" required />
-          <button>Realizar Inscrição</button>
-        </div>
-      </fieldset>
-    </form>
+            <input type="email" placeholder="Email" name="email" required />
+            <button>Realizar Inscrição</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
 
     <table>
       <thead>
