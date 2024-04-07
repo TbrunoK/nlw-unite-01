@@ -94,7 +94,7 @@ section h2 {
 fieldset button {
   width: fit-content;
   border: 0;
-  background: #f48f56;
+  background: rgb(252, 123, 3);
   border-radius: 10px;
   padding: 7px 20px;
 
@@ -102,7 +102,7 @@ fieldset button {
 }
 
 fieldset button:hover {
-  background-color: rgb(252, 123, 3);
+  background-color: rgb(196, 112, 34);
 }
 
 /* Tabela */
