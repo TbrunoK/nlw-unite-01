@@ -153,6 +153,11 @@ tbody td small {
   line-height: 16px;
 }
 
+/* Data da Inscrição */
+.data-inscricao {
+  color: rgba(24, 214, 81, 0.555);
+}
+
 /* Data do Check-in */
 
 .date-checkin {
