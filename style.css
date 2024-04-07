@@ -10,7 +10,7 @@
 /* Line --border: 1px solid #ffffff1a; */
 
 :root {
-  --border: 1px solid #ffffffcb;
+  --border: 1px solid #ff0000cb;
 }
 
 body,
@@ -136,7 +136,7 @@ tbody td {
   border-top: var(--border);
   font-size: 13px;
   line-height: 15px;
-  color: #c4c4cc;
+  color: #2525b8;
 }
 
 /* Nome dos participantes */
