@@ -153,6 +153,12 @@ tbody td small {
   line-height: 16px;
 }
 
+/* Data do Check-in */
+
+.date-checkin {
+  color: rgb(0, 253, 0);
+}
+
 /* Botão */
 tbody td button {
   all: unset;
