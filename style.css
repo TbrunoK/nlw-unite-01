@@ -115,6 +115,7 @@ fieldset button:hover {
 .lista-participantes > div {
   border: var(--border);
   border-radius: 8px;
+  color: #0dd872;
 }
 
 tab {
