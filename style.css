@@ -136,13 +136,13 @@ tbody td {
   border-top: var(--border);
   font-size: 13px;
   line-height: 15px;
-  color: #2525b8;
+  color: #d3d3d3;
 }
 
 /* Nome dos participantes */
 
 tbody td strong {
-  color: rgb(4, 238, 94);
+  color: #3ea6d6;
   font-size: 14px;
   line-height: 16px;
   font-weight: 600;
